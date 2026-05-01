@@ -1,0 +1,166 @@
+/* ===== EXPERIENCE ===== */
+.experience {
+    padding: 120px 48px;
+    background: var(--bg);
+  }
+  
+  .experience-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* TIMELINE */
+  .timeline {
+    position: relative;
+    margin-top: 48px;
+    padding-left: 32px;
+  }
+  
+  /* Vertical line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--accent), transparent);
+  }
+  
+  /* TIMELINE ITEM */
+  .timeline-item {
+    position: relative;
+    margin-bottom: 48px;
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* DOT */
+  .timeline-dot {
+    position: absolute;
+    left: -39px;
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+    box-shadow: 0 0 12px var(--accent);
+  }
+  
+  /* CONTENT */
+  .timeline-content {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  
+  .timeline-content:hover {
+    border-color: var(--accent);
+    transform: translateX(4px);
+  }
+  
+  /* HEADER */
+  .timeline-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .timeline-header h3 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  
+  .timeline-badge {
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .timeline-badge.current {
+    background: rgba(106,247,192,0.15);
+    color: var(--accent3);
+    border: 1px solid var(--accent3);
+  }
+  
+  /* COMPANY */
+  .timeline-company {
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* DATE */
+  .timeline-date {
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* LIST */
+  .timeline-list {
+    list-style: none;
+    margin-bottom: 16px;
+  }
+  
+  .timeline-list li {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.7;
+    padding-left: 16px;
+    position: relative;
+  }
+  
+  .timeline-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 12px;
+  }
+  
+  /* SKILLS */
+  .timeline-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .tskill {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: rgba(124,106,247,0.1);
+    color: var(--accent);
+    font-weight: 500;
+    border: 1px solid rgba(124,106,247,0.2);
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .experience {
+      padding: 80px 24px;
+    }
+  
+    .timeline {
+      padding-left: 24px;
+    }
+  }

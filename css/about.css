@@ -1,0 +1,133 @@
+/* ===== ABOUT ===== */
+.about {
+    padding: 120px 48px;
+    background: var(--bg2);
+  }
+  
+  .about-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* SECTION TAG */
+  .section-tag {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .section-tag::after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: var(--accent);
+    opacity: 0.4;
+  }
+  
+  /* SECTION TITLE */
+  .section-title {
+    font-family: 'Clash Display', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 48px;
+    line-height: 1.1;
+  }
+  
+  /* GRID */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: start;
+  }
+  
+  /* TEXT */
+  .about-text p {
+    color: var(--muted);
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p strong {
+    color: var(--text);
+  }
+  
+  /* LANGUAGES */
+  .about-langs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  
+  .lang-badge {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    transition: border-color 0.2s;
+  }
+  
+  .lang-badge:hover {
+    border-color: var(--accent);
+  }
+  
+  /* CARDS */
+  .about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .about-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  
+  .about-card:hover {
+    border-color: var(--accent);
+    transform: translateX(6px);
+  }
+  
+  .about-card-icon {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .about-card h4 {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+  
+  .about-card p {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .about {
+      padding: 80px 24px;
+    }
+  
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
