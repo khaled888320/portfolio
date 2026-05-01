@@ -161,6 +161,83 @@
             <span class="tskill">Finance</span>
             <span class="tskill">Client Management</span>
           </div>
+
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Client Service Representative</h3>
+          </div>
+          <div class="timeline-company">
+            <i class="fas fa-building"></i> Red Mountain Management S.R.L
+          </div>
+          <div class="timeline-date">
+            <i class="fas fa-calendar"></i> Nov 2015 – Apr 2016 · 6 months · Bucharest
+          </div>
+          <ul class="timeline-list">
+            <li>Identification of new clients and partners</li>
+            <li>Establishing relationships with potential and existing clients</li>
+            <li>Providing documentation and analysis reports</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tskill">Arabic</span>
+            <span class="tskill">Client Management</span>
+            <span class="tskill">Sales</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Senior Electronic Technician</h3>
+          </div>
+          <div class="timeline-company">
+            <i class="fas fa-building"></i> Magic Games AB S.R.L
+          </div>
+          <div class="timeline-date">
+            <i class="fas fa-calendar"></i> Aug 2015 – Nov 2015 · 4 months · Bucharest
+          </div>
+          <ul class="timeline-list">
+            <li>Periodical maintenance of slot machines</li>
+            <li>Daily check and repair of faulty machines</li>
+            <li>Installing and configuring gaming softwares</li>
+            <li>Electronic debugging of slot machines</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tskill">Electronics</span>
+            <span class="tskill">Hardware</span>
+            <span class="tskill">Maintenance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>French Advisor</h3>
+          </div>
+          <div class="timeline-company">
+            <i class="fas fa-building"></i> Teleperformance Romania
+          </div>
+          <div class="timeline-date">
+            <i class="fas fa-calendar"></i> Dec 2014 – Jun 2015 · 7 months · Bucharest
+          </div>
+          <ul class="timeline-list">
+            <li>Technical advice over the phone to French speaking clients</li>
+            <li>Support in the gaming field — PC, consoles, mobile phones</li>
+            <li>Games: FIFA, Need for Speed, Battlefield, Mass Effect, Sims</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tskill">French</span>
+            <span class="tskill">Technical Support</span>
+            <span class="tskill">Gaming</span>
+          </div>
         </div>
       </div>
 
