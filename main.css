@@ -51,6 +51,12 @@
   pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  #bg-canvas {
+    opacity: 0.3;
+  }
+}
+
 /* Toate sectiunile trebuie sa fie deasupra canvas-ului */
 nav, section, footer {
   position: relative;
@@ -118,4 +124,14 @@ nav {
   .theme-btn:hover {
     border-color: var(--accent);
     transform: scale(1.05);
+  }
+
+  :root[data-theme="dark"] {
+    /* adaugă această linie */
+    --nav-bg: rgba(5,5,8,0.85);
+  }
+  
+  :root[data-theme="light"] {
+    /* adaugă această linie */
+    --nav-bg: rgba(248,247,255,0.85);
   }

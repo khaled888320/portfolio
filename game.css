@@ -143,34 +143,3 @@
   min-height: 24px;
   color: var(--accent3);
 }
-
-/* ===== RESPONSIVE GAMES ===== */
-@media (max-width: 768px) {
-  #gameCanvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  #snakeCanvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  #breakoutCanvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  .quiz-answers {
-    grid-template-columns: 1fr;
-  }
-
-  .game-controls {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .game-wrap {
-    padding: 24px 16px;
-  }
-}

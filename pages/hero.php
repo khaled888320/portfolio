@@ -13,9 +13,14 @@
   <li><a href="#contact">Contact</a></li>
 </ul>
 
-  <div class="nav-right">
-    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">🌙</button>
-  </div>
+<div class="nav-right">
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">🌙</button>
+</div>
 </nav>
 
 <!-- HERO -->

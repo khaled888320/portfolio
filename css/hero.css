@@ -117,3 +117,37 @@
     color: var(--accent);
     transform: translateY(-2px);
   }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 100px 24px 60px;
+      min-height: auto;
+    }
+  
+    .hero h1 {
+      font-size: 2.8rem;
+      letter-spacing: -1px;
+    }
+  
+    .hero-sub {
+      font-size: 15px;
+    }
+  
+    .hero-btns {
+      flex-direction: column;
+    }
+  
+    .btn-primary, .btn-ghost {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .hero-stats {
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+  
+    .stat-num {
+      font-size: 1.8rem;
+    }
+  }
