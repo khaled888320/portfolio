@@ -9,7 +9,7 @@
 
       <div class="skill-card">
         <div class="skill-icon">⚡</div>
-        <div class="skill-name">Vue.js 3</div>
+        <div class="skill-name">Vue.js</div>
         <div class="skill-desc">Composition API, Pinia, Vue Router, Composables</div>
         <div class="skill-level">
           <div class="skill-level-bar" data-width="85"></div>
@@ -27,8 +27,8 @@
 
       <div class="skill-card">
         <div class="skill-icon">🐘</div>
-        <div class="skill-name">PHP & Laravel</div>
-        <div class="skill-desc">REST API, Eloquent ORM, Sanctum, Service Layer</div>
+        <div class="skill-name">PHP</div>
+        <div class="skill-desc">Laravel, Lumen, CodeIgniter, Symfony, REST API, Eloquent ORM</div>
         <div class="skill-level">
           <div class="skill-level-bar" data-width="80"></div>
         </div>
