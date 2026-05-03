@@ -9,17 +9,19 @@
 
       <!-- TEXT -->
       <div class="about-text">
-        <p>I'm a <strong>Full Stack Web Developer</strong> from Tunisia 🇹🇳, currently based in Bucharest, Romania. I hold a degree from the Polytechnic University and a Master's degree.</p>
+        <p>I'm a <strong>Full Stack Web Developer</strong> based in Bucharest, Romania 🇷🇴. I hold a degree from the Polytechnic University and a Master's degree.</p>
         <p>I'm passionate about building <strong>clean, performant, and beautiful</strong> web applications. I specialize in <strong>Vue.js, Laravel, PHP, and MySQL</strong>.</p>
         <p>I'm always looking for new challenges and opportunities to <strong>grow as a developer</strong> and work on impactful products with great teams.</p>
 
         <div class="about-langs">
-          <span class="lang-badge">🇹🇳 Arabic</span>
-          <span class="lang-badge">🇫🇷 French</span>
-          <span class="lang-badge">🇬🇧 English</span>
-          <span class="lang-badge">🇷🇴 Romanian</span>
+        <span class="lang-badge">🇫🇷 French</span>
+        <span class="lang-badge">🇬🇧 English</span>
+        <span class="lang-badge">🇷🇴 Romanian</span>
+        <span class="lang-badge">🇸🇦 Arabic</span>
         </div>
       </div>
+
+   
 
       <!-- CARDS -->
       <div class="about-cards">
