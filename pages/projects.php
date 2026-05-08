@@ -74,6 +74,30 @@
         </div>
       </div>
 
+      <!-- PROJECT 4 — COMPARERO -->
+<div class="project-card">
+  <div class="project-thumb" style="background: linear-gradient(135deg, #6366f1, #06b6d4)">
+    📦
+  </div>
+  <div class="project-body">
+    <div class="project-tags">
+      <span class="project-tag">Vue 3</span>
+      <span class="project-tag">Laravel</span>
+      <span class="project-tag">OpenStreetMap</span>
+    </div>
+    <h3 class="project-title">CompareRo</h3>
+    <p class="project-desc">Platformă de comparare prețuri pentru curierat, transport (Uber/Bolt) și livrare mâncare (Glovo/Tazz) în România.</p>
+    <div class="project-links">
+      <a href="https://compare-ro-frontend.vercel.app" target="_blank" class="project-link">
+        <i class="fas fa-external-link-alt"></i> Live Demo
+      </a>
+      <a href="https://github.com/khaled888320/compare-ro-frontend" target="_blank" class="project-link">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
     </div>
   </div>
 </section>
