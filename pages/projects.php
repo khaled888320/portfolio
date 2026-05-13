@@ -98,6 +98,33 @@
   </div>
 </div>
 
+
+<!-- PROJECT 5 — SECURITY DEMO -->
+<div class="project-card">
+  <div class="project-thumb" style="background: linear-gradient(135deg, #1a1a2e, #f76a6a)">
+    🔐
+  </div>
+  <div class="project-body">
+    <div class="project-tags">
+      <span class="project-tag">Vue 3</span>
+      <span class="project-tag">OWASP</span>
+      <span class="project-tag">Security</span>
+    </div>
+    <h3 class="project-title">Security Demo — OWASP Top 10</h3>
+    <p class="project-desc">Aplicație interactivă care demonstrează toate vulnerabilitățile OWASP Top 10 cu cod vulnerabil, cod securizat și demo-uri live.</p>
+    <div class="project-links">
+      <a href="https://security-demo-one.vercel.app" target="_blank" class="project-link">
+        <i class="fas fa-external-link-alt"></i> Live Demo
+      </a>
+      <a href="https://github.com/khaled888320/security-demo" target="_blank" class="project-link">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
     </div>
   </div>
 </section>
